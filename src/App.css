@@ -40,4 +40,8 @@
   .name {
     margin-top: -100px;
   }
+  .img {
+    width: 255px;      
+    height: 255px; 
+ }
 }
