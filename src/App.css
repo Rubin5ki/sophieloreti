@@ -1,3 +1,5 @@
+
+
 .avatar {
   display: flex;
   flex-direction: column;
@@ -17,11 +19,13 @@
 }
 
 .name {
+  margin-top: -50px;
   width: 100vw;
   text-align: center;
   color: white;
   font-weight: bolder;
   font-size: 70px;
+  z-index: 0;
 }
 
 .description {
@@ -30,4 +34,10 @@
   text-align: center;
   color: white;
   font-weight: bolder;
+}
+
+@media (max-width: 410px) {
+  .name {
+    margin-top: -100px;
+  }
 }
