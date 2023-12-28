@@ -13,12 +13,11 @@
    height: 270px; 
    border-radius: 50%;
    border: 2px solid rgb(209, 209, 209);
-   position: relative;
    filter: brightness(70%);
 }
 
 .name {
-  position: fixed;
+  position: absolute;
   bottom: 290px;
   width: 100vw;
   text-align: center;
