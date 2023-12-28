@@ -38,7 +38,7 @@
 
 @media (max-width: 410px) {
   .name {
-    margin-top: -100px;
+    margin-top: -95px;
     width: 200px;
     font-size: 60px;
   }
@@ -48,7 +48,7 @@
  }
 
  .avatar{
-  margin-top: 175px ;
+  margin-top: 150px ;
  }
 
 
