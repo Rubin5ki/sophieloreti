@@ -17,8 +17,6 @@
 }
 
 .name {
-  position: absolute;
-  bottom: 290px;
   width: 100vw;
   text-align: center;
   color: white;
