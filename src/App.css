@@ -39,11 +39,17 @@
 @media (max-width: 410px) {
   .name {
     margin-top: -100px;
+    width: 200px;
     font-size: 60px;
   }
   .img {
     width: 245px;      
     height: 245px; 
  }
+
+ .avatar{
+  margin-top: 175px ;
+ }
+
 
 }
