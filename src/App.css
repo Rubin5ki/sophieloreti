@@ -1,21 +1,18 @@
-
-
 .avatar {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 200px ;
+  margin-top: 200px;
 }
 
 .img {
-   object-fit: cover;
-   object-position: top center;
-   width: 270px;      
-   height: 270px; 
-   border-radius: 50%;
-   border: 2px solid rgb(209, 209, 209);
-   filter: brightness(70%);
+  object-fit: cover;
+  object-position: top center;
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  filter: brightness(80%);
 }
 
 .name {
@@ -29,11 +26,11 @@
 }
 
 .description {
-  margin-top: 40px;
+  margin-top: 35px;
   width: 100vw;
   text-align: center;
-  color: white;
-  font-weight: bolder;
+  color: rgb(201, 201, 201);
+  font-weight: normal;
 }
 
 @media (max-width: 410px) {
@@ -43,13 +40,10 @@
     font-size: 60px;
   }
   .img {
-    width: 245px;      
-    height: 245px; 
- }
-
- .avatar{
-  margin-top: 130px ;
- }
-
-
+    width: 245px;
+    height: 245px;
+  }
+  .avatar {
+    margin-top: 130px;
+  }
 }
